@@ -1,17 +1,24 @@
-Lab 07 - Doubly Linked List
+Lab 07 - Part B: Doubly Linked List in a Library Management System
+
+Purpose:
+This separate console example applies a doubly linked list to a library borrowing session.
+Each node stores a book ID, title, previous pointer, and next pointer. The current pointer
+lets the librarian move forward and backward, insert a book after the selected book, and
+remove the selected book.
 
 Files:
 - main.cpp
-- DoublyLinkedList.h
-- DoublyLinkedList.cpp
+- LibraryBorrowingList.h
+- LibraryBorrowingList.cpp
 
 Compile:
-g++ main.cpp DoublyLinkedList.cpp -o lab07
+g++ main.cpp LibraryBorrowingList.cpp -std=c++17 -o partb
 
 Run on Windows:
-lab07.exe
+partb.exe
 
 Run on Linux/macOS:
-./lab07
+./partb
 
-The program begins with three sample books and provides the nine menu options listed in the lab PDF.
+This is a standalone Part B demonstration and does not connect to the SQL Server database
+or replace the existing Library Management System backend.
